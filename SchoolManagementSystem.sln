@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B1F67FDE-5676-4FF0-BD6D-F4854DFB0219}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\SMS\SchoolManagementSytem\SMS.Data\SMSDbContext.cs = ..\..\SMS\SchoolManagementSytem\SMS.Data\SMSDbContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{43ECC6D6-80F4-4C4A-BC94-1DA9500490C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{FCABE6E5-FF1C-4BC2-8F38-4622DB167592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Data", "SMS.Data\SMS.Data.csproj", "{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EADBD901-06CC-43A3-99ED-A977E9D8CD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Test", "SMS.Test\SMS.Test.csproj", "{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Web", "SMS.Web\SMS.Web.csproj", "{89227542-D1A3-4E77-952E-269939C7D664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Api", "SMS.Api\SMS.Api.csproj", "{1197DA11-4780-4A88-A159-3745728910A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89227542-D1A3-4E77-952E-269939C7D664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89227542-D1A3-4E77-952E-269939C7D664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89227542-D1A3-4E77-952E-269939C7D664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89227542-D1A3-4E77-952E-269939C7D664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1197DA11-4780-4A88-A159-3745728910A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1197DA11-4780-4A88-A159-3745728910A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1197DA11-4780-4A88-A159-3745728910A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1197DA11-4780-4A88-A159-3745728910A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3355F45-900A-4BCD-A7BC-9E54E0BB201D} = {B1F67FDE-5676-4FF0-BD6D-F4854DFB0219}
+		{CEFD7DEF-1A1F-418A-9C8E-CF2ABF481F59} = {EADBD901-06CC-43A3-99ED-A977E9D8CD5F}
+		{89227542-D1A3-4E77-952E-269939C7D664} = {FCABE6E5-FF1C-4BC2-8F38-4622DB167592}
+		{1197DA11-4780-4A88-A159-3745728910A4} = {43ECC6D6-80F4-4C4A-BC94-1DA9500490C0}
+	EndGlobalSection
+EndGlobal

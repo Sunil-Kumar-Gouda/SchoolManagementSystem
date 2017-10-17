@@ -1,0 +1,152 @@
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\csc.exe
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\System.Collections.Immutable.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\System.Reflection.Metadata.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\vbc.exe
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\VBCSCompiler.exe
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\roslyn\VBCSCompiler.exe.config
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\SMS.Api.dll.config
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\SMS.Api.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\SMS.Api.pdb
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Antlr3.Runtime.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\EntityFramework.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\EntityFramework.SqlServer.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.Core.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Cookies.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Facebook.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Google.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.OAuth.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Twitter.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Newtonsoft.Json.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Owin.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Net.Http.Formatting.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Helpers.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.Owin.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.WebHost.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Mvc.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Optimization.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Razor.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.Deployment.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.Razor.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\WebGrease.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Newtonsoft.Json.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Net.Http.Formatting.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Helpers.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.WebHost.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Mvc.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Optimization.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Razor.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.Deployment.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.WebPages.Razor.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Antlr3.Runtime.pdb
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\EntityFramework.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\EntityFramework.SqlServer.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.Core.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Facebook.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Cookies.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.OAuth.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Google.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.Twitter.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\bin\System.Web.Http.Owin.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Api\obj\Debug\SMS.Api.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Api\obj\Debug\SMS.Api.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\csc.exe
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\System.Collections.Immutable.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\System.Reflection.Metadata.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\vbc.exe
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\VBCSCompiler.exe
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\roslyn\VBCSCompiler.exe.config
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\SMS.Api.dll.config
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\SMS.Api.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\SMS.Api.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Antlr3.Runtime.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\EntityFramework.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\EntityFramework.SqlServer.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Google.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Newtonsoft.Json.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Owin.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Net.Http.Formatting.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Helpers.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.Owin.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.WebHost.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Mvc.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Optimization.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Razor.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.Deployment.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.Razor.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\WebGrease.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Newtonsoft.Json.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Net.Http.Formatting.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Helpers.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.WebHost.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Mvc.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Optimization.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Razor.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.Deployment.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.WebPages.Razor.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Antlr3.Runtime.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\EntityFramework.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\EntityFramework.SqlServer.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Google.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\bin\System.Web.Http.Owin.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\obj\Debug\SMS.Api.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Api\obj\Debug\SMS.Api.pdb

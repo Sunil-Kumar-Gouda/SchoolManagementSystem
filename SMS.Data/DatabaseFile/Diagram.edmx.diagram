@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13d3476faa1840d999e90c69ced9ce3d" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.C__MigrationHistory" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Class" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.ClassSection" Width="1.5" PointX="3.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Exam" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Result" Width="1.5" PointX="10.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Role" Width="1.5" PointX="2.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Section" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Student" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Subject" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.Teacher" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.UserClaim" Width="1.5" PointX="7.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.UserLogin" Width="1.5" PointX="9" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolManagementSystemModel.User" Width="1.5" PointX="5" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_ClassSection_Class_ClassId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_Subject_Class_ClassId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_ClassSection_Section_SectionId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_ClassSection_Student_StudentId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_ClassSection_Teacher_TeacherId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_Exam_Subject_SubjectId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_Result_Exam_ExamId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_Result_Student_StudentId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_Subject_Teacher_TeacherId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_dbo_UserClaim_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.FK_dbo_UserLogin_dbo_Users_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolManagementSystemModel.UserRole" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

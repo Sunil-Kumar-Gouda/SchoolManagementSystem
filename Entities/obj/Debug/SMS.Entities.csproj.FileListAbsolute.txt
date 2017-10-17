@@ -1,0 +1,4 @@
+D:\Zubair WorkSpace\Github\SMS\SchoolManagementSytem\Entities\bin\Debug\Entities.dll
+D:\Zubair WorkSpace\Github\SMS\SchoolManagementSytem\Entities\bin\Debug\Entities.pdb
+D:\Zubair WorkSpace\Github\SMS\SchoolManagementSytem\Entities\obj\Debug\Entities.dll
+D:\Zubair WorkSpace\Github\SMS\SchoolManagementSytem\Entities\obj\Debug\Entities.pdb

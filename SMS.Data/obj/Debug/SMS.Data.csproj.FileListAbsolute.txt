@@ -1,0 +1,18 @@
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.dll.config
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.pdb
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Data\obj\Debug\SMS.Data.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Data\obj\Debug\SMS.Data.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\SMS.Data.dll.config
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\SMS.Data.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\SMS.Data.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\EntityFramework.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\EntityFramework.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\obj\Debug\SMS.Data.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\obj\Debug\SMS.Data.pdb

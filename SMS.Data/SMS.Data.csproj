@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3355F45-900A-4BCD-A7BC-9E54E0BB201D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMS.Data</RootNamespace>
+    <AssemblyName>SMS.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatabaseFile\Class.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\ClassSection.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\C__MigrationHistory.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Diagram.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Diagram.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Diagram.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Diagram.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Diagram.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Exam.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Result.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Role.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Section.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Student.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Subject.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\Teacher.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\User.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\UserClaim.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseFile\UserLogin.cs">
+      <DependentUpon>Diagram.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Class.cs" />
+    <Compile Include="Entities\ClassSection.cs" />
+    <Compile Include="Entities\C__MigrationHistory.cs" />
+    <Compile Include="Entities\Exam.cs" />
+    <Compile Include="Entities\IEntityBase.cs" />
+    <Compile Include="Entities\Result.cs" />
+    <Compile Include="Entities\Role.cs" />
+    <Compile Include="Entities\Section.cs" />
+    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\Subject.cs" />
+    <Compile Include="Entities\Teacher.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserClaim.cs" />
+    <Compile Include="Entities\UserLogin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="DatabaseFile\Diagram.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Diagram.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DatabaseFile\Diagram.edmx.diagram">
+      <DependentUpon>Diagram.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DatabaseFile\Diagram.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Diagram.edmx</DependentUpon>
+      <LastGenOutput>Diagram.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="DatabaseFile\Diagram.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Diagram.edmx</DependentUpon>
+      <LastGenOutput>Diagram.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

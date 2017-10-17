@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="../Scripts/angular.min.js"></script>
+</head>
+<body ng-controller="controller1">
+name<input type="text" />
+   ps <input type="text" />
+    <input type="button" ng-click="call();" />
+</body>
+<script>
+    var app = angular.module("app", []);
+    app.controller("controller1", function ($scope, $http) {
+        $scope.call = function () {
+            $http.post('http://localhost:13929/api/Account/register').then(
+                function (response) {
+                    alert(response);
+                },
+                function (response) {
+                    alert(response);}
+                );
+        }
+    });
+</script>
+</html>

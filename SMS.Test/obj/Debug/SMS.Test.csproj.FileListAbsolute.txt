@@ -1,0 +1,11 @@
+D:\a\Projects\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.pdb
+D:\a\Projects\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\a\Projects\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.dll
+D:\a\Projects\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\bin\Debug\SMS.Test.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\bin\Debug\SMS.Test.pdb
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\obj\Debug\SMS.Test.dll
+D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\obj\Debug\SMS.Test.pdb
