@@ -7,7 +7,7 @@ namespace SMS.Data.Entities
     using System.Data.Entity.Spatial;
 
     [Table("Result")]
-    public partial class Result
+    public partial class Result : IEntityBase
     {
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }

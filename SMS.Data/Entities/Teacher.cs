@@ -7,7 +7,7 @@ namespace SMS.Data.Entities
     using System.Data.Entity.Spatial;
 
     [Table("Teacher")]
-    public partial class Teacher
+    public partial class Teacher : IEntityBase
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Teacher()

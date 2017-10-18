@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B1F67FDE-5676-4FF0-BD6D-F4854DFB0219}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\SMS\SchoolManagementSytem\SMS.Data\SMSDbContext.cs = ..\..\SMS\SchoolManagementSytem\SMS.Data\SMSDbContext.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{43ECC6D6-80F4-4C4A-BC94-1DA9500490C0}"
 EndProject

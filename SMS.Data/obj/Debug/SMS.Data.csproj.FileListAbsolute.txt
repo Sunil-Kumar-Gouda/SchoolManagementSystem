@@ -16,3 +16,12 @@ D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\Entit
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\obj\Debug\SMS.Data.dll
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Data\obj\Debug\SMS.Data.pdb
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.dll.config
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\SMS.Data.pdb
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.xml
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\obj\Debug\SMS.Data.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Data\obj\Debug\SMS.Data.pdb

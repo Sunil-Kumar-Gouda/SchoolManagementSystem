@@ -7,7 +7,7 @@ namespace SMS.Data.Entities
     using System.Data.Entity.Spatial;
 
     [Table("Section")]
-    public partial class Section
+    public partial class Section : IEntityBase
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Section()

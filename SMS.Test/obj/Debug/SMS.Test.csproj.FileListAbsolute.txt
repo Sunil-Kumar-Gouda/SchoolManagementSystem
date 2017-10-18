@@ -9,3 +9,8 @@ D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\bin\Debug\SMS.T
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\obj\Debug\SMS.Test.dll
 D:\Zubair WorkSpace\Github\School\SchoolManagementSytem\SMS.Test\obj\Debug\SMS.Test.pdb
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.pdb
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.dll
+D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.pdb

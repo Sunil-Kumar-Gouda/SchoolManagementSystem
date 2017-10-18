@@ -7,7 +7,7 @@ namespace SMS.Data.Entities
     using System.Data.Entity.Spatial;
 
     [Table("Role")]
-    public partial class Role
+    public partial class Role : IEntityBase
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Role()

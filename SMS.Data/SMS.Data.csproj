@@ -52,6 +52,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\ClassConfiguration.cs" />
+    <Compile Include="Configurations\ClassSectionConfiguration.cs" />
+    <Compile Include="Configurations\EntityBaseConfiguration.cs" />
+    <Compile Include="Configurations\ExamConfiguration.cs" />
+    <Compile Include="Configurations\ResultConfiguration.cs" />
+    <Compile Include="Configurations\RoleConfiguration.cs" />
+    <Compile Include="Configurations\SectionConfiguration.cs" />
+    <Compile Include="Configurations\StudentConfiguration.cs" />
+    <Compile Include="Configurations\SubjectConfiguration.cs" />
+    <Compile Include="Configurations\TeacherConfiguration.cs" />
+    <Compile Include="Configurations\UserConfiguration.cs" />
     <Compile Include="DatabaseFile\Class.cs">
       <DependentUpon>Diagram.tt</DependentUpon>
     </Compile>
@@ -109,6 +120,7 @@
     <Compile Include="Entities\Class.cs" />
     <Compile Include="Entities\ClassSection.cs" />
     <Compile Include="Entities\C__MigrationHistory.cs" />
+    <Compile Include="Entities\Error.cs" />
     <Compile Include="Entities\Exam.cs" />
     <Compile Include="Entities\IEntityBase.cs" />
     <Compile Include="Entities\Result.cs" />
@@ -120,7 +132,15 @@
     <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserClaim.cs" />
     <Compile Include="Entities\UserLogin.cs" />
+    <Compile Include="Infrastructure\DbFactory.cs" />
+    <Compile Include="Infrastructure\Disposable.cs" />
+    <Compile Include="Infrastructure\IDbFactory.cs" />
+    <Compile Include="Infrastructure\IUnitOfWork.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\EntityBaseRepository.cs" />
+    <Compile Include="Repositories\IEntityBaseRepository.cs" />
+    <Compile Include="SMSDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config">

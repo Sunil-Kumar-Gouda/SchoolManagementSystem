@@ -7,7 +7,7 @@ namespace SMS.Data.Entities
     using System.Data.Entity.Spatial;
 
     [Table("UserClaim")]
-    public partial class UserClaim
+    public partial class UserClaim : IEntityBase
     {
         public int Id { get; set; }
 
