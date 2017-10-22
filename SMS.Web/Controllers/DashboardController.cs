@@ -45,7 +45,7 @@ namespace SMS.Web.Controllers
         public ActionResult Home()
         {
             var UserDetail = new { Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() };
-            
+
             return View(UserDetail);
         }
         //
@@ -54,7 +54,16 @@ namespace SMS.Web.Controllers
         public ActionResult Login(string returnUrl)
         {
             if (Request.IsAuthenticated)
-               return RedirectToAction("Home");
+            {
+                var role = UserManager.GetRoles(User.Identity.GetUserId<int>());
+                //    if (role[0] == "Admin")
+                //        return RedirectToAction("Index", "Home", new { Area = "Admin", Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() });
+                //    else if (role[0] == "Teacher")
+                //        return RedirectToAction("Index", "Home", new { Area = "Teacher", Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() });
+                //    else
+                //        return RedirectToAction("Index", "Home", new { Area = "Student", Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() });
+                return RedirectToAction("Index", "Home", new { Area = role[0], Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() });
+            }
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -72,11 +81,11 @@ namespace SMS.Web.Controllers
             }
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
+            var result = await SignInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, shouldLockout: false);
             switch (result)
             {
                 case SignInStatus.Success:
-                    return RedirectToAction(returnUrl ??"Home");
+                    return RedirectToAction(returnUrl ?? "Login");
                 case SignInStatus.LockedOut:
                     return View("Lockout");
                 case SignInStatus.RequiresVerification:
@@ -133,40 +142,49 @@ namespace SMS.Web.Controllers
 
         //
         // GET: /Account/Register
-        [AllowAnonymous]
+        [Authorize(Roles ="Admin")]
         public ActionResult Register()
         {
+            ApplicationDbContext context = new ApplicationDbContext();
+            ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin"))
+                                            .ToList(), "Name", "Name");
             return View();
         }
 
         //
         // POST: /Account/Register
         [HttpPost]
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                var user = new ApplicationUser
+                {
+                    UserName = model.UserName, Email = model.Email, PhoneNumber = model.PhoneNumber,
+                    Gender = model.Gender, Address = model.Address
+                };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
-                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
-
+                    //await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);//Mine commented
+                    await UserManager.AddToRoleAsync(user.Id, model.UserRoles);
                     //For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
                     //Send an email with this link
-                     string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
+                    /* Mine commented
+                    string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
                     var callbackUrl = Url.Action("ConfirmEmail", "Dashboard", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
                     await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
-
-                    return RedirectToAction("Home", "Dashboard");
+                    Comment complete*/
+                    return RedirectToAction("Index", "Home", new { Area = "Admin", Name = User.Identity.GetUserName(), Id = User.Identity.GetUserId() });
                 }
                 AddErrors(result);
             }
 
             // If we got this far, something failed, redisplay form
-            return View("Login",model);
+            ViewBag.Name = new SelectList(new ApplicationDbContext().Roles.Where(u => !u.Name.Contains("Admin")).ToList(), "Name", "Name");
+            return View("Register", model);
         }
 
         //
@@ -348,8 +366,9 @@ namespace SMS.Web.Controllers
                 default:
                     // If the user does not have an account, then prompt the user to create an account
                     ViewBag.ReturnUrl = returnUrl;
-                    ViewBag.LoginProvider = loginInfo.Login.LoginProvider;
-                    return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel { Email = loginInfo.Email });
+                    //ViewBag.LoginProvider = loginInfo.Login.LoginProvider;
+                    return RedirectToAction("Login");
+                    //return View("ExternalLoginConfirmation", new ExternalLoginConfirmationViewModel { Email = loginInfo.Email });
             }
         }
 
@@ -398,7 +417,7 @@ namespace SMS.Web.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Login", "Dashboard");
+            return RedirectToAction("Login");
         }
 
         //

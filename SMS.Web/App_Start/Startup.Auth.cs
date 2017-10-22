@@ -8,6 +8,8 @@ using Owin;
 using SMS.Web.Models;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Configuration;
 
 namespace SMS.Web
 {
@@ -91,6 +93,65 @@ namespace SMS.Web
             googleAuthOptions.Scope.Add("profile");
             googleAuthOptions.Scope.Add("email");
             app.UseGoogleAuthentication(googleAuthOptions);
+            createRolesandUsers();
+        }
+        // In this method we will create default User roles and Admin user for login   
+        private void createRolesandUsers()
+        {
+            ApplicationDbContext context = new ApplicationDbContext();
+            
+            var roleManager = new RoleManager<CustomRole,int>(new CustomRoleStore(context));
+            var UserManager = new UserManager<ApplicationUser,int>(new CustomUserStore(context));
+
+            // In Startup iam creating first Admin Role and creating a default Admin User    
+            if (!roleManager.RoleExists("Admin"))
+            {
+                // first we create Admin rool   
+                var role = new CustomRole();
+                role.Name = "Admin";
+                roleManager.Create(role);
+
+                //Here we create a Admin super user who will maintain the website
+                var user = new ApplicationUser();
+                user.UserName = ConfigurationManager.AppSettings["AdminUserName"];
+
+                user.Email = ConfigurationManager.AppSettings["AdminEmailId"];
+                var x = ConfigurationManager.GetSection("appSettings");
+                string userPWD = ConfigurationManager.AppSettings["AdminPassword"];
+
+                var chkUser = UserManager.Create(user, userPWD);
+
+                //Add default User to Role Admin   
+                if (chkUser.Succeeded)
+                {
+                    var result1 = UserManager.AddToRole(user.Id, "Admin");
+
+                }
+            }
+
+            // creating Creating Teacher role    
+            if (!roleManager.RoleExists("Teacher"))
+            {
+                var role = new CustomRole();
+                role.Name = "Teacher";
+                roleManager.Create(role);
+            }
+
+            // creating Creating Student role    
+            if (!roleManager.RoleExists("Student"))
+            {
+                var role = new CustomRole();
+                role.Name = "Student";
+                roleManager.Create(role);
+            }
+
+            // creating Creating Employee role    
+            if (!roleManager.RoleExists("Staff"))
+            {
+                var role = new CustomRole();
+                role.Name = "Staff";
+                roleManager.Create(role);
+            }
         }
     }
 }

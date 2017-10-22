@@ -21,6 +21,12 @@ namespace SMS.Data.Entities
         [StringLength(256)]
         public string Email { get; set; }
 
+        public string Gender { get; set; }
+
+        public string Address { get; set; }
+
+        public string Name { get; set; }
+
         public bool EmailConfirmed { get; set; }
 
         public string PasswordHash { get; set; }

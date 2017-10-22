@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'D:\Sunil\SunilWorkspace\GithubRepository\SchoolManagementSytem\SMS.Data\DatabaseFile\Diagram.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\a\SMS\SchoolManagementSystem\SMS.Data\DatabaseFile\Diagram.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

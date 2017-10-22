@@ -14,3 +14,10 @@ D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\bin\Debug\S
 D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.dll
 D:\Zubair WorkSpace\Github\SchoolNew\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.pdb
+D:\a\SMS\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.dll
+D:\a\SMS\SchoolManagementSystem\SMS.Test\bin\Debug\SMS.Test.pdb
+D:\a\SMS\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\a\SMS\SchoolManagementSystem\SMS.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\a\SMS\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.csprojResolveAssemblyReference.cache
+D:\a\SMS\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.dll
+D:\a\SMS\SchoolManagementSystem\SMS.Test\obj\Debug\SMS.Test.pdb
