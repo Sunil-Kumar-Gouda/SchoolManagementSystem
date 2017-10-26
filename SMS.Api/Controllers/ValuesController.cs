@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SMS.Api.Controllers
 {
@@ -35,6 +36,10 @@ namespace SMS.Api.Controllers
         // DELETE api/values/5
         public void Delete(int id)
         {
+        }
+        public IEnumerable<int> RequestIntegers()
+        {
+            return new int[3] { 33, 44, 112 };
         }
     }
 }

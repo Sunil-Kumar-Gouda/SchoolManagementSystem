@@ -12,6 +12,9 @@ namespace SMS.Api
     {
         public void Configuration(IAppBuilder app)
         {
+            //This CORS is present in Microsoft.AspNet.WebApi.Cors
+            //Allow cors for Owin as well as Web Api
+            app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
             ConfigureAuth(app);
         }
     }

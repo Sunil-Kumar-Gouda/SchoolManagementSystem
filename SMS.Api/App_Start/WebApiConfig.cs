@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using System.Web.Http.Cors;
 
 namespace SMS.Api
 {
@@ -18,6 +19,12 @@ namespace SMS.Api
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
 
             // Web API routes
+            /*
+             * Allow CORS for Only Web API pipeline. So by enabling this also u can't get the Bearer token (/Token)
+             * This CORS is present in Microsoft.AspNet.WebApi.Cors 
+            EnableCorsAttribute cros = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors();
+            */
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(

@@ -9,9 +9,10 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Admin</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 </head>
-<body>
-    <div>
+<body ng-app="app">
+    <div ng-controller="cont">
         @using Microsoft.AspNet.Identity
         @if (Request.IsAuthenticated)
         {
@@ -28,6 +29,31 @@
             }
         }
         @Html.ActionLink("Register user", "Register",new {Controller="Dashboard", Area="" })
+        <button ng-click="CallApi()">WebApi</button>
     </div>
+<script>
+    var app = angular.module("app", []);
+    app.controller("cont", function ($http, $scope) {
+        $http.post('http://localhost:13929/Token', "grant_type=" + encodeURIComponent("password") + "&username=" + encodeURIComponent("admin") + "&password=" + encodeURIComponent("adminA1"))
+         .then(function successCallback(response) {
+             console.log(response.data);
+             window.sessionStorage.setItem("token", response.data.access_token);
+        }, function errorCallback(response) {
+            // called asynchronously if an error occurs
+            // or server returns response with an error status.
+        });
+
+        $scope.CallApi=function()
+        {
+            $http({ url: 'http://localhost:13929/api/values',method:"GET", headers: { Authorization: 'Bearer ' + window.sessionStorage.getItem("token") }})
+            .then(function successCallback(response) {
+                console.log(response.data);
+            }, function errorCallback(response) {
+                // called asynchronously if an error occurs
+                // or server returns response with an error status.
+            });
+        }
+    });
+</script>
 </body>
 </html>
